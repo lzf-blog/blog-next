@@ -1,0 +1,25 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+*.md
+*.mdx
+package.json
+node_modules
+.cache
+.git
+.gitignore
+.prettierignore
+.idea
+.next
+public
+.husky
+.lintstagedrc.json
+next.config.js
+next-env.d.ts
+yarn-error.log
+yarn.lock
