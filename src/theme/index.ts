@@ -94,6 +94,16 @@ const theme = extendTheme({
     h4: {
       fontSize: 'xs',
       letterSpacing: '0.5px'
+    },
+    ul: {
+      px: 4
+    },
+    ol: {
+      px: 4
+    },
+    li: {
+      pd: '4px',
+      mt: 3
     }
   }
 })

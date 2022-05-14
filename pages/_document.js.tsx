@@ -8,7 +8,7 @@ export default class Document extends NextDocument {
     return (
       <Html lang="zh-cn">
         <Head>
-          <link rel="icon" href="/avatar.jpg" />
+          <link rel="icon" href="/assets/images/avatar.jpg" />
         </Head>
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
