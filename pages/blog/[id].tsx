@@ -64,7 +64,8 @@ export const getStaticProps: GetStaticProps<Props> = async ctx => {
   return {
     props: {
       ...props,
-      source: await serialize(content)
+      source: await serialize(content),
+      revalidate: 60
     }
   }
 }
